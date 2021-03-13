@@ -1,0 +1,29 @@
+
+// Shades: New value = current value x shade factor
+// Tints: New value = current value + ((255 - current value) x tint factor)
+
+Base color
+---------------
+
+#7356BF		rgb(115,86,191)		      hsl(257,45%,55%)
+
+
+Shades
+--------------
+
+ceil this
+
+#574191		rgb(87,65,145)	 75.5%	hsl(257,38%,40%)  
+#453473		rgb(69,52,115)	 60%	  hsl(257,38%,30%)  	
+#2E224C		rgb(46,34,76)	   40%    hsl(257,38%,20%)  
+
+
+Tint
+--------------
+
+#957FCE		rgb(149,127,206)  24.8%	  hsl(257,45%,65%)
+#C1B5E3		rgb(193,181,227)	55.7%   hsl(257,45%,80%)
+#E3DDF2		rgb(227,221,242)	79.5%   hsl(257,45%,90%)
+#F4F1FA		rgb(244,241,250)	91.5%   hsl(257,45%,95%)
+
+#574191 -> hsl(257,38,41)
