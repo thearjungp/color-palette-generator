@@ -12,23 +12,23 @@
 
   <div class="inputVal">
     <p class="desc">Enter hsl values : </p>
-    <input id="h" type="number" size="5" min="0" max="360" value="257" name="h"/>
-    <input id="s" type="number" size="5" min="15" max="85" value="50" name="s" />
-    <input id="l" type="number" size="5" min="45" max="55" value="50" name="l" />
-    <button class="btn" onclick="generatePalette()">Generate</button>
+    <input id="h" type="number" size="5" min="0" max="360" value="257" name="h" onchange="generatePalette()" />
+    <input id="s" type="number" size="5" min="15" max="85" value="50" name="s" onchange="generatePalette()" />
+    <input id="l" type="number" size="5" min="45" max="55" value="50" name="l" onchange="generatePalette()" />
+    <!-- <button class="btn" onclick="generatePalette()">Generate</button> -->
   </div>
 
   <p id="msg" ></p>
 
   <div class="palette">
-    <div id="color1" class="colors color1"></div>
-    <div id="color2" class="colors color2"></div>
-    <div id="color3" class="colors color3"></div>
-    <div id="color4" class="colors color4"></div>
-    <div id="color5" class="colors color5"></div>
-    <div id="color6" class="colors color6"></div>
-    <div id="color7" class="colors color7"></div>
-    <div id="color8" class="colors color8"></div>
+    <div id="color1" class="colors"></div>
+    <div id="color2" class="colors"></div>
+    <div id="color3" class="colors"></div>
+    <div id="color4" class="colors"></div>
+    <div id="color5" class="colors"></div>
+    <div id="color6" class="colors"></div>
+    <div id="color7" class="colors"></div>
+    <div id="color8" class="colors"></div>
   </div>
   
 </body>
